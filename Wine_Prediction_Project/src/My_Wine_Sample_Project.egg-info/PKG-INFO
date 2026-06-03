@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: My_Wine_Sample_Project
+Version: 0.0.0
+Summary: A small python package for ml app
+Home-page: https://github.com/Rahul2022Devops/My_MLOps_Projects
+Author: Rahul2022Devops
+Author-email: rahulhasanhelp@gmail.com
+Project-URL: Bug Tracker, https://github.com/Rahul2022Devops/My_MLOps_Projects/issues
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: home-page
+Dynamic: project-url
+Dynamic: summary
+
+Hello this is a readme file
