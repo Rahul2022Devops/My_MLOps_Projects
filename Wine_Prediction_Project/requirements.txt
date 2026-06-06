@@ -12,5 +12,6 @@ joblib
 types-PyYAML
 Flask
 setuptools
+ipykernel
 Flask-Cors
 -e .
