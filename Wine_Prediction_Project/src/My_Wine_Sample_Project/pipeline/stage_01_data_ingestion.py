@@ -1,10 +1,11 @@
+from My_Wine_Sample_Project.components import data_ingestion
 from My_Wine_Sample_Project.entity.config_entity import DataIngestionConfig
 from My_Wine_Sample_Project.config.configuration import ConfigurationManager
 from My_Wine_Sample_Project.components.data_ingestion import DataIngestion  
 from My_Wine_Sample_Project import logger
 
 
-STAGE_NAME = "Data Ingestion Stage"
+STAGE_NAME = "Data Ingestion stage"
 
 class DataIngestionTrainingPipeline:
     def __init__(self):
@@ -13,8 +14,6 @@ class DataIngestionTrainingPipeline:
     def main(self):
         config = ConfigurationManager()
         data_ingestion_config = config.get_data_ingestion_config()
-
         data_ingestion = DataIngestion(config=data_ingestion_config)
-
         data_ingestion.download_file()
         data_ingestion.extract_zip_file()
