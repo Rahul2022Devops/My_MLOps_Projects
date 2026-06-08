@@ -897,3 +897,320 @@ x============================x]
 [2026-06-08 13:26:05,910: INFO: main: >>>>> stage Model Trainer Stage completed <<<<<
 
 x============================x]
+[2026-06-08 13:27:38,306: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2026-06-08 13:27:38,314: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-08 13:27:38,316: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-08 13:27:38,320: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-06-08 13:27:38,323: INFO: common: created directory at: artifacts]
+[2026-06-08 13:27:38,324: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-06-08 13:27:39,007: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 26176
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "f751ec0917e15a3dc07c3094a49fb99713109dd8a9f29150bb5d187ec17facdf"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 274C:0A1C:5B6B1:12C72E:6A2651CF
+Accept-Ranges: bytes
+Date: Mon, 08 Jun 2026 07:57:38 GMT
+Via: 1.1 varnish
+X-Served-By: cache-ccu830054-CCU
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1780905459.905943,VS0,VE1
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 79586fdaa0a955c19790cc523fa8435a0da0b4d5
+Expires: Mon, 08 Jun 2026 08:02:38 GMT
+Source-Age: 116
+
+]
+[2026-06-08 13:27:39,033: INFO: main: >>>>> stage Data Ingestion Stage completed <<<<<
+
+x============================x]
+[2026-06-08 13:27:39,034: INFO: main: >>>>> stage Data Validation Stage started <<<<<]
+[2026-06-08 13:27:39,037: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-08 13:27:39,039: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-08 13:27:39,044: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-06-08 13:27:39,044: INFO: common: created directory at: artifacts]
+[2026-06-08 13:27:39,044: INFO: common: created directory at: artifacts/data_validation]
+[2026-06-08 13:27:39,074: INFO: main: >>>>> stage Data Validation Stage completed <<<<<
+
+x============================x]
+[2026-06-08 13:27:39,074: INFO: main: >>>>> stage Data Transformation Stage started <<<<<]
+[2026-06-08 13:27:39,080: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-08 13:27:39,082: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-08 13:27:39,084: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-06-08 13:27:39,084: INFO: common: created directory at: artifacts]
+[2026-06-08 13:27:39,085: INFO: common: created directory at: artifacts/data_transformation]
+[2026-06-08 13:27:39,086: INFO: main: >>>>> stage Data Transformation Stage completed <<<<<
+
+x============================x]
+[2026-06-08 13:27:39,086: INFO: main: >>>>> stage Model Trainer Stage started <<<<<]
+[2026-06-08 13:27:39,090: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-08 13:27:39,092: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-08 13:27:39,093: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-06-08 13:27:39,093: INFO: common: created directory at: artifacts]
+[2026-06-08 13:27:39,093: INFO: common: created directory at: artifacts/model_trainer]
+[2026-06-08 13:27:39,093: INFO: main: >>>>> stage Model Trainer Stage completed <<<<<
+
+x============================x]
+[2026-06-08 13:34:41,615: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2026-06-08 13:34:41,631: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-08 13:34:41,631: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-08 13:34:41,631: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-06-08 13:34:41,631: INFO: common: created directory at: artifacts]
+[2026-06-08 13:34:41,631: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-06-08 13:34:53,580: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 26176
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "f751ec0917e15a3dc07c3094a49fb99713109dd8a9f29150bb5d187ec17facdf"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 274C:0A1C:5B6B1:12C72E:6A2651CF
+Accept-Ranges: bytes
+Date: Mon, 08 Jun 2026 08:04:53 GMT
+Via: 1.1 varnish
+X-Served-By: cache-ccu830021-CCU
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1780905893.189434,VS0,VE299
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: bf50e6dfa8dab47c416f6be0d45eef862f855cbb
+Expires: Mon, 08 Jun 2026 08:09:53 GMT
+Source-Age: 0
+
+]
+[2026-06-08 13:34:53,590: INFO: main: >>>>> stage Data Ingestion Stage completed <<<<<
+
+x============================x]
+[2026-06-08 13:34:53,590: INFO: main: >>>>> stage Data Validation Stage started <<<<<]
+[2026-06-08 13:34:53,600: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-08 13:34:53,600: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-08 13:34:53,602: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-06-08 13:34:53,604: INFO: common: created directory at: artifacts]
+[2026-06-08 13:34:53,604: INFO: common: created directory at: artifacts/data_validation]
+[2026-06-08 13:34:53,616: INFO: main: >>>>> stage Data Validation Stage completed <<<<<
+
+x============================x]
+[2026-06-08 13:34:53,616: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2026-06-08 13:34:53,616: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-08 13:34:53,616: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-08 13:34:53,616: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-06-08 13:34:53,616: INFO: common: created directory at: artifacts]
+[2026-06-08 13:34:53,616: INFO: common: created directory at: artifacts/data_transformation]
+[2026-06-08 13:34:53,616: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2026-06-08 13:34:53,616: INFO: main: >>>>> stage Model Trainer Stage started <<<<<]
+[2026-06-08 13:34:53,632: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-08 13:34:53,632: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-08 13:34:53,632: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-06-08 13:34:53,632: INFO: common: created directory at: artifacts]
+[2026-06-08 13:34:53,637: INFO: common: created directory at: artifacts/model_trainer]
+[2026-06-08 13:34:53,637: INFO: main: >>>>> stage Model Trainer Stage completed <<<<<
+
+x============================x]
+[2026-06-08 13:35:41,683: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-08 13:35:41,694: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-08 13:35:41,696: INFO: common: created directory at: artifacts]
+[2026-06-08 13:35:41,697: INFO: common: created directory at: artifacts/data_transformation]
+[2026-06-08 13:36:02,506: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-08 13:36:02,508: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-08 13:36:02,511: INFO: common: created directory at: artifacts]
+[2026-06-08 13:36:02,511: INFO: common: created directory at: artifacts/data_transformation]
+[2026-06-08 13:40:14,218: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-08 13:40:14,225: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-08 13:40:14,240: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-06-08 13:40:14,246: INFO: common: created directory at: artifacts]
+[2026-06-08 13:40:14,250: INFO: common: created directory at: artifacts/data_transformation]
+[2026-06-08 13:43:24,159: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2026-06-08 13:43:24,173: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-08 13:43:24,173: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-08 13:43:24,173: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-06-08 13:43:24,189: INFO: common: created directory at: artifacts]
+[2026-06-08 13:43:24,189: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-06-08 13:43:24,189: INFO: data_ingestion: File already exists of size: ~ 26 KB]
+[2026-06-08 13:43:24,215: INFO: main: >>>>> stage Data Ingestion Stage completed <<<<<
+
+x============================x]
+[2026-06-08 13:43:24,215: INFO: main: >>>>> stage Data Validation Stage started <<<<<]
+[2026-06-08 13:43:24,217: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-08 13:43:24,219: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-08 13:43:24,221: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-06-08 13:43:24,221: INFO: common: created directory at: artifacts]
+[2026-06-08 13:43:24,221: INFO: common: created directory at: artifacts/data_validation]
+[2026-06-08 13:43:24,253: INFO: main: >>>>> stage Data Validation Stage completed <<<<<
+
+x============================x]
+[2026-06-08 13:43:24,253: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2026-06-08 13:43:24,282: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-08 13:43:24,282: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-08 13:43:24,285: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-06-08 13:43:24,285: INFO: common: created directory at: artifacts]
+[2026-06-08 13:43:24,285: INFO: common: created directory at: artifacts/data_transformation]
+[2026-06-08 13:43:24,301: INFO: data_transformation: Splited data into training and test sets]
+[2026-06-08 13:43:24,301: INFO: data_transformation: (1199, 12)]
+[2026-06-08 13:43:24,301: INFO: data_transformation: (400, 12)]
+[2026-06-08 13:43:24,317: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2026-06-08 13:43:24,317: INFO: main: >>>>> stage Model Trainer Stage started <<<<<]
+[2026-06-08 13:43:24,317: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-08 13:43:24,317: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-08 13:43:24,317: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-06-08 13:43:24,317: INFO: common: created directory at: artifacts]
+[2026-06-08 13:43:24,317: INFO: common: created directory at: artifacts/model_trainer]
+[2026-06-08 13:43:24,401: INFO: main: >>>>> stage Model Trainer Stage completed <<<<<
+
+x============================x]
+[2026-06-08 13:43:48,268: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2026-06-08 13:43:48,268: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-08 13:43:48,268: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-08 13:43:48,268: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-06-08 13:43:48,268: INFO: common: created directory at: artifacts]
+[2026-06-08 13:43:48,268: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-06-08 13:43:59,634: ERROR: main: HTTP Error 504: Gateway Time-out]
+Traceback (most recent call last):
+  File "D:\Work\Project_Learning\MLOps_Projects\My Github Projects\My_MLOps_Projects\My_MLOps_Projects\Wine_Prediction_Project\main.py", line 14, in <module>
+    data_ingestion.main()
+  File "D:\Work\Project_Learning\MLOps_Projects\My Github Projects\My_MLOps_Projects\My_MLOps_Projects\Wine_Prediction_Project\src\My_Wine_Sample_Project\pipeline\stage_01_data_ingestion.py", line 18, in main
+    data_ingestion.download_file()
+  File "D:\Work\Project_Learning\MLOps_Projects\My Github Projects\My_MLOps_Projects\My_MLOps_Projects\Wine_Prediction_Project\src\My_Wine_Sample_Project\components\data_ingestion.py", line 18, in download_file
+    filename, headers = request.urlretrieve(
+                        ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\envs\mlops-3.11-06062026\Lib\urllib\request.py", line 241, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+                            ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\envs\mlops-3.11-06062026\Lib\urllib\request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\envs\mlops-3.11-06062026\Lib\urllib\request.py", line 525, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\envs\mlops-3.11-06062026\Lib\urllib\request.py", line 634, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\envs\mlops-3.11-06062026\Lib\urllib\request.py", line 563, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\envs\mlops-3.11-06062026\Lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\envs\mlops-3.11-06062026\Lib\urllib\request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 504: Gateway Time-out
+[2026-06-08 13:44:52,653: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2026-06-08 13:44:52,656: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-08 13:44:52,656: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-08 13:44:52,658: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-06-08 13:44:52,658: INFO: common: created directory at: artifacts]
+[2026-06-08 13:44:52,660: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-06-08 13:44:52,993: ERROR: main: HTTP Error 504: Gateway Time-out]
+Traceback (most recent call last):
+  File "D:\Work\Project_Learning\MLOps_Projects\My Github Projects\My_MLOps_Projects\My_MLOps_Projects\Wine_Prediction_Project\main.py", line 14, in <module>
+    data_ingestion.main()
+  File "D:\Work\Project_Learning\MLOps_Projects\My Github Projects\My_MLOps_Projects\My_MLOps_Projects\Wine_Prediction_Project\src\My_Wine_Sample_Project\pipeline\stage_01_data_ingestion.py", line 18, in main
+    data_ingestion.download_file()
+  File "D:\Work\Project_Learning\MLOps_Projects\My Github Projects\My_MLOps_Projects\My_MLOps_Projects\Wine_Prediction_Project\src\My_Wine_Sample_Project\components\data_ingestion.py", line 18, in download_file
+    filename, headers = request.urlretrieve(
+                        ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\envs\mlops-3.11-06062026\Lib\urllib\request.py", line 241, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+                            ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\envs\mlops-3.11-06062026\Lib\urllib\request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\envs\mlops-3.11-06062026\Lib\urllib\request.py", line 525, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\envs\mlops-3.11-06062026\Lib\urllib\request.py", line 634, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\envs\mlops-3.11-06062026\Lib\urllib\request.py", line 563, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\envs\mlops-3.11-06062026\Lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\envs\mlops-3.11-06062026\Lib\urllib\request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 504: Gateway Time-out
+[2026-06-08 14:24:38,931: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2026-06-08 14:24:38,947: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-08 14:24:38,947: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-08 14:24:38,947: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-06-08 14:24:38,951: INFO: common: created directory at: artifacts]
+[2026-06-08 14:24:38,951: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-06-08 14:24:40,314: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 26176
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "f751ec0917e15a3dc07c3094a49fb99713109dd8a9f29150bb5d187ec17facdf"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 274C:0A1C:5B6B1:12C72E:6A2651CF
+Accept-Ranges: bytes
+Date: Mon, 08 Jun 2026 08:54:40 GMT
+Via: 1.1 varnish
+X-Served-By: cache-ccu830045-CCU
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1780908880.935875,VS0,VE266
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: df8881bc6a567f201a1ee69a0c5e1deaa9158e3a
+Expires: Mon, 08 Jun 2026 08:59:40 GMT
+Source-Age: 0
+
+]
+[2026-06-08 14:24:40,339: INFO: main: >>>>> stage Data Ingestion Stage completed <<<<<
+
+x============================x]
+[2026-06-08 14:24:40,339: INFO: main: >>>>> stage Data Validation Stage started <<<<<]
+[2026-06-08 14:24:40,347: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-08 14:24:40,348: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-08 14:24:40,348: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-06-08 14:24:40,348: INFO: common: created directory at: artifacts]
+[2026-06-08 14:24:40,348: INFO: common: created directory at: artifacts/data_validation]
+[2026-06-08 14:24:40,368: INFO: main: >>>>> stage Data Validation Stage completed <<<<<
+
+x============================x]
+[2026-06-08 14:24:40,369: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2026-06-08 14:24:40,372: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-08 14:24:40,373: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-08 14:24:40,374: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-06-08 14:24:40,375: INFO: common: created directory at: artifacts]
+[2026-06-08 14:24:40,375: INFO: common: created directory at: artifacts/data_transformation]
+[2026-06-08 14:24:40,381: INFO: data_transformation: Splited data into training and test sets]
+[2026-06-08 14:24:40,381: INFO: data_transformation: (1199, 12)]
+[2026-06-08 14:24:40,381: INFO: data_transformation: (400, 12)]
+[2026-06-08 14:24:40,381: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2026-06-08 14:24:40,381: INFO: main: >>>>> stage Model Trainer Stage started <<<<<]
+[2026-06-08 14:24:40,395: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-08 14:24:40,398: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-08 14:24:40,398: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-06-08 14:24:40,398: INFO: common: created directory at: artifacts]
+[2026-06-08 14:24:40,398: INFO: common: created directory at: artifacts/model_trainer]
+[2026-06-08 14:24:40,468: INFO: main: >>>>> stage Model Trainer Stage completed <<<<<
+
+x============================x]
