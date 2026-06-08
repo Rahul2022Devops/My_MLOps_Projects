@@ -1340,3 +1340,132 @@ x============================x]
 [2026-06-08 15:12:47,142: INFO: main: >>>>> stage Model Evaluation Stage completed <<<<<
 
 x============================x]
+[2026-06-08 16:24:32,936: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2026-06-08 16:24:32,941: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-08 16:24:32,941: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-08 16:24:32,944: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-06-08 16:24:32,945: INFO: common: created directory at: artifacts]
+[2026-06-08 16:24:32,945: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-06-08 16:24:34,181: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 26176
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "f751ec0917e15a3dc07c3094a49fb99713109dd8a9f29150bb5d187ec17facdf"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 274C:0A1C:5B6B1:12C72E:6A2651CF
+Accept-Ranges: bytes
+Date: Mon, 08 Jun 2026 10:54:34 GMT
+Via: 1.1 varnish
+X-Served-By: cache-ccu830024-CCU
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1780916074.744368,VS0,VE297
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 281f81878f429acf244f9076a0c3871bd1ff4b3d
+Expires: Mon, 08 Jun 2026 10:59:34 GMT
+Source-Age: 0
+
+]
+[2026-06-08 16:24:34,201: INFO: main: >>>>> stage Data Ingestion Stage completed <<<<<
+
+x============================x]
+[2026-06-08 16:24:34,201: INFO: main: >>>>> stage Data Validation Stage started <<<<<]
+[2026-06-08 16:24:34,206: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-08 16:24:34,207: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-08 16:24:34,209: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-06-08 16:24:34,210: INFO: common: created directory at: artifacts]
+[2026-06-08 16:24:34,210: INFO: common: created directory at: artifacts/data_validation]
+[2026-06-08 16:24:34,243: INFO: main: >>>>> stage Data Validation Stage completed <<<<<
+
+x============================x]
+[2026-06-08 16:24:34,243: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2026-06-08 16:24:34,249: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-08 16:24:34,249: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-08 16:24:34,249: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-06-08 16:24:34,249: INFO: common: created directory at: artifacts]
+[2026-06-08 16:24:34,249: INFO: common: created directory at: artifacts/data_transformation]
+[2026-06-08 16:24:34,277: INFO: data_transformation: Splited data into training and test sets]
+[2026-06-08 16:24:34,277: INFO: data_transformation: (1199, 12)]
+[2026-06-08 16:24:34,283: INFO: data_transformation: (400, 12)]
+[2026-06-08 16:24:34,284: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2026-06-08 16:24:34,284: INFO: main: >>>>> stage Model Trainer Stage started <<<<<]
+[2026-06-08 16:24:34,286: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-08 16:24:34,286: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-08 16:24:34,291: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-06-08 16:24:34,292: INFO: common: created directory at: artifacts]
+[2026-06-08 16:24:34,292: INFO: common: created directory at: artifacts/model_trainer]
+[2026-06-08 16:24:34,356: INFO: main: >>>>> stage Model Trainer Stage completed <<<<<
+
+x============================x]
+[2026-06-08 16:24:34,356: INFO: main: >>>>> stage Model Evaluation Stage started <<<<<]
+[2026-06-08 16:24:34,356: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-08 16:24:34,356: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-08 16:24:34,356: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-06-08 16:24:34,356: INFO: common: created directory at: artifacts]
+[2026-06-08 16:24:34,356: INFO: common: created directory at: artifacts/model_evaluation]
+[2026-06-08 16:24:34,396: INFO: common: json file saved at: artifacts\model_evaluation\metrics.yaml]
+[2026-06-08 16:24:34,396: INFO: main: >>>>> stage Model Evaluation Stage completed <<<<<
+
+x============================x]
+[2026-06-08 16:39:32,348: WARNING: _internal:  * Debugger is active!]
+[2026-06-08 16:39:32,356: INFO: _internal:  * Debugger PIN: 123-127-768]
+[2026-06-08 16:39:50,714: INFO: _internal:  * Detected change in 'D:\\Work\\Project_Learning\\MLOps_Projects\\My Github Projects\\My_MLOps_Projects\\My_MLOps_Projects\\Wine_Prediction_Project\\app.py', reloading]
+[2026-06-08 16:39:51,898: WARNING: _internal:  * Debugger is active!]
+[2026-06-08 16:39:51,914: INFO: _internal:  * Debugger PIN: 123-127-768]
+[2026-06-08 16:40:11,635: INFO: _internal: 127.0.0.1 - - [08/Jun/2026 16:40:11] "GET / HTTP/1.1" 200 -]
+[2026-06-08 16:40:11,754: INFO: _internal: 127.0.0.1 - - [08/Jun/2026 16:40:11] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
+[2026-06-08 16:40:11,901: INFO: _internal: 127.0.0.1 - - [08/Jun/2026 16:40:11] "[36mGET /static/css2/nunito-font.css HTTP/1.1[0m" 304 -]
+[2026-06-08 16:40:11,980: INFO: _internal: 127.0.0.1 - - [08/Jun/2026 16:40:11] "[36mGET /static/css2/style.css HTTP/1.1[0m" 304 -]
+[2026-06-08 16:40:11,980: INFO: _internal: 127.0.0.1 - - [08/Jun/2026 16:40:11] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -]
+[2026-06-08 16:40:11,989: INFO: _internal: 127.0.0.1 - - [08/Jun/2026 16:40:11] "[33mGET /static/assets/img/wine.jpg HTTP/1.1[0m" 404 -]
+[2026-06-08 16:40:12,312: INFO: _internal: 127.0.0.1 - - [08/Jun/2026 16:40:12] "[33mGET /static/fonts/Nunito/Nunito-Bold.ttf HTTP/1.1[0m" 404 -]
+[2026-06-08 16:40:12,315: INFO: _internal: 127.0.0.1 - - [08/Jun/2026 16:40:12] "[36mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 304 -]
+[2026-06-08 16:40:16,235: INFO: _internal: 127.0.0.1 - - [08/Jun/2026 16:40:16] "POST /predict HTTP/1.1" 200 -]
+[2026-06-08 16:40:26,708: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.18:8080]
+[2026-06-08 16:40:26,708: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-06-08 16:40:26,708: INFO: _internal:  * Restarting with stat]
+[2026-06-08 16:40:27,644: WARNING: _internal:  * Debugger is active!]
+[2026-06-08 16:40:27,659: INFO: _internal:  * Debugger PIN: 123-127-768]
+[2026-06-08 16:40:35,037: INFO: _internal: 127.0.0.1 - - [08/Jun/2026 16:40:35] "GET / HTTP/1.1" 200 -]
+[2026-06-08 16:40:35,223: INFO: _internal: 127.0.0.1 - - [08/Jun/2026 16:40:35] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
+[2026-06-08 16:40:35,275: INFO: _internal: 127.0.0.1 - - [08/Jun/2026 16:40:35] "[36mGET /static/css2/nunito-font.css HTTP/1.1[0m" 304 -]
+[2026-06-08 16:40:35,380: INFO: _internal: 127.0.0.1 - - [08/Jun/2026 16:40:35] "[36mGET /static/css2/style.css HTTP/1.1[0m" 304 -]
+[2026-06-08 16:40:35,380: INFO: _internal: 127.0.0.1 - - [08/Jun/2026 16:40:35] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -]
+[2026-06-08 16:40:35,412: INFO: _internal: 127.0.0.1 - - [08/Jun/2026 16:40:35] "[33mGET /static/assets/img/wine.jpg HTTP/1.1[0m" 404 -]
+[2026-06-08 16:40:35,718: INFO: _internal: 127.0.0.1 - - [08/Jun/2026 16:40:35] "[33mGET /static/fonts/Nunito/Nunito-Bold.ttf HTTP/1.1[0m" 404 -]
+[2026-06-08 16:40:35,729: INFO: _internal: 127.0.0.1 - - [08/Jun/2026 16:40:35] "[36mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 304 -]
+[2026-06-08 16:40:39,746: INFO: _internal: 127.0.0.1 - - [08/Jun/2026 16:40:39] "POST /predict HTTP/1.1" 200 -]
+[2026-06-08 16:43:18,659: INFO: _internal: 127.0.0.1 - - [08/Jun/2026 16:43:18] "POST /predict HTTP/1.1" 200 -]
+[2026-06-08 16:43:25,064: INFO: _internal: 127.0.0.1 - - [08/Jun/2026 16:43:25] "GET / HTTP/1.1" 200 -]
+[2026-06-08 16:43:25,104: INFO: _internal: 127.0.0.1 - - [08/Jun/2026 16:43:25] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
+[2026-06-08 16:43:25,389: INFO: _internal: 127.0.0.1 - - [08/Jun/2026 16:43:25] "[36mGET /static/css2/nunito-font.css HTTP/1.1[0m" 304 -]
+[2026-06-08 16:43:25,422: INFO: _internal: 127.0.0.1 - - [08/Jun/2026 16:43:25] "[36mGET /static/css2/style.css HTTP/1.1[0m" 304 -]
+[2026-06-08 16:43:25,423: INFO: _internal: 127.0.0.1 - - [08/Jun/2026 16:43:25] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -]
+[2026-06-08 16:43:25,426: INFO: _internal: 127.0.0.1 - - [08/Jun/2026 16:43:25] "[33mGET /static/assets/img/wine.jpg HTTP/1.1[0m" 404 -]
+[2026-06-08 16:43:25,751: INFO: _internal: 127.0.0.1 - - [08/Jun/2026 16:43:25] "[33mGET /static/fonts/Nunito/Nunito-Bold.ttf HTTP/1.1[0m" 404 -]
+[2026-06-08 16:43:25,759: INFO: _internal: 127.0.0.1 - - [08/Jun/2026 16:43:25] "[36mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 304 -]
+[2026-06-08 16:43:31,701: INFO: _internal: 127.0.0.1 - - [08/Jun/2026 16:43:31] "POST /predict HTTP/1.1" 200 -]
+[2026-06-08 16:44:53,759: INFO: _internal:  * Detected change in 'D:\\Work\\Project_Learning\\MLOps_Projects\\My Github Projects\\My_MLOps_Projects\\My_MLOps_Projects\\Wine_Prediction_Project\\app.py', reloading]
+[2026-06-08 16:44:53,989: INFO: _internal:  * Restarting with stat]
+[2026-06-08 16:44:55,130: WARNING: _internal:  * Debugger is active!]
+[2026-06-08 16:44:55,135: INFO: _internal:  * Debugger PIN: 123-127-768]
+[2026-06-08 16:45:32,018: INFO: _internal:  * Detected change in 'D:\\Work\\Project_Learning\\MLOps_Projects\\My Github Projects\\My_MLOps_Projects\\My_MLOps_Projects\\Wine_Prediction_Project\\src\\My_Wine_Sample_Project\\pipeline\\prediction.py', reloading]
+[2026-06-08 16:45:32,269: INFO: _internal:  * Restarting with stat]
+[2026-06-08 16:45:33,312: WARNING: _internal:  * Debugger is active!]
+[2026-06-08 16:45:33,312: INFO: _internal:  * Debugger PIN: 123-127-768]
+[2026-06-08 16:45:44,562: INFO: _internal: 127.0.0.1 - - [08/Jun/2026 16:45:44] "POST /predict HTTP/1.1" 200 -]
+[2026-06-08 16:45:44,614: INFO: _internal: 127.0.0.1 - - [08/Jun/2026 16:45:44] "[33mGET /static/assets/img/wine.gif HTTP/1.1[0m" 404 -]
+[2026-06-08 16:45:44,679: INFO: _internal: 127.0.0.1 - - [08/Jun/2026 16:45:44] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
+[2026-06-08 16:45:44,913: INFO: _internal: 127.0.0.1 - - [08/Jun/2026 16:45:44] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -]
