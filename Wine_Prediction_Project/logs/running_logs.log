@@ -321,3 +321,55 @@ x============================x]
 [2026-06-08 11:19:33,181: INFO: main: >>>>> stage Data Transformation Stage completed <<<<<
 
 x============================x]
+[2026-06-08 11:19:49,684: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-08 11:19:49,687: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-08 11:19:49,689: INFO: common: created directory at: artifacts]
+[2026-06-08 11:20:32,625: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-08 11:20:32,630: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-08 11:20:32,632: INFO: common: created directory at: artifacts]
+[2026-06-08 11:21:09,587: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-08 11:21:09,590: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-08 11:21:09,592: INFO: common: created directory at: artifacts]
+[2026-06-08 11:21:25,393: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-08 11:21:25,396: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-08 11:21:25,399: INFO: common: created directory at: artifacts]
+[2026-06-08 11:24:05,631: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-08 11:24:05,634: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-08 11:24:05,636: INFO: common: created directory at: artifacts]
+[2026-06-08 11:24:07,481: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-08 11:24:07,484: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-08 11:24:07,484: INFO: common: created directory at: artifacts]
+[2026-06-08 11:33:35,465: ERROR: 2604064921: [Errno 2] No such file or directory: 'config\\config.yaml']
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Temp\ipykernel_20956\2604064921.py", line 2, in <module>
+    config = ConfigurationManager()
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Temp\ipykernel_20956\3291100099.py", line 7, in __init__
+    self.config = read_yaml(config_filepath)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\HP\anaconda3\envs\mlops-3.11-06062026\Lib\site-packages\ensure\main.py", line 849, in __call__
+    return_val = self.f(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Work\Project_Learning\MLOps_Projects\My Github Projects\My_MLOps_Projects\My_MLOps_Projects\Wine_Prediction_Project\src\My_Wine_Sample_Project\utils\common.py", line 36, in read_yaml
+    raise e
+  File "D:\Work\Project_Learning\MLOps_Projects\My Github Projects\My_MLOps_Projects\My_MLOps_Projects\Wine_Prediction_Project\src\My_Wine_Sample_Project\utils\common.py", line 29, in read_yaml
+    with open(path_to_yaml) as yaml_file:
+         ^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'config\\config.yaml'
+[2026-06-08 11:37:29,972: ERROR: 2604064921: [Errno 2] No such file or directory: 'config\\config.yaml']
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Temp\ipykernel_20956\2604064921.py", line 2, in <module>
+    config = ConfigurationManager()
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Temp\ipykernel_20956\3291100099.py", line 7, in __init__
+    self.config = read_yaml(config_filepath)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\HP\anaconda3\envs\mlops-3.11-06062026\Lib\site-packages\ensure\main.py", line 849, in __call__
+    return_val = self.f(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Work\Project_Learning\MLOps_Projects\My Github Projects\My_MLOps_Projects\My_MLOps_Projects\Wine_Prediction_Project\src\My_Wine_Sample_Project\utils\common.py", line 36, in read_yaml
+    raise e
+  File "D:\Work\Project_Learning\MLOps_Projects\My Github Projects\My_MLOps_Projects\My_MLOps_Projects\Wine_Prediction_Project\src\My_Wine_Sample_Project\utils\common.py", line 29, in read_yaml
+    with open(path_to_yaml) as yaml_file:
+         ^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'config\\config.yaml'
