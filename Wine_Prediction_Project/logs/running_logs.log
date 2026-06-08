@@ -1214,3 +1214,129 @@ x==========x]
 [2026-06-08 14:24:40,468: INFO: main: >>>>> stage Model Trainer Stage completed <<<<<
 
 x============================x]
+[2026-06-08 14:55:34,400: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2026-06-08 14:55:34,404: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-08 14:55:34,407: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-08 14:55:34,409: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-06-08 14:55:34,409: INFO: common: created directory at: artifacts]
+[2026-06-08 14:55:34,409: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-06-08 14:55:35,636: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 26176
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "f751ec0917e15a3dc07c3094a49fb99713109dd8a9f29150bb5d187ec17facdf"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 274C:0A1C:5B6B1:12C72E:6A2651CF
+Accept-Ranges: bytes
+Date: Mon, 08 Jun 2026 09:25:35 GMT
+Via: 1.1 varnish
+X-Served-By: cache-ccu830057-CCU
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1780910735.213787,VS0,VE294
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: e7f8635ce55683b2b308966f90e72a6a192a92ae
+Expires: Mon, 08 Jun 2026 09:30:35 GMT
+Source-Age: 0
+
+]
+[2026-06-08 14:55:35,671: INFO: main: >>>>> stage Data Ingestion Stage completed <<<<<
+
+x============================x]
+[2026-06-08 14:55:35,671: INFO: main: >>>>> stage Data Validation Stage started <<<<<]
+[2026-06-08 14:55:35,677: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-08 14:55:35,677: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-08 14:55:35,677: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-06-08 14:55:35,682: INFO: common: created directory at: artifacts]
+[2026-06-08 14:55:35,682: INFO: common: created directory at: artifacts/data_validation]
+[2026-06-08 14:55:35,708: INFO: main: >>>>> stage Data Validation Stage completed <<<<<
+
+x============================x]
+[2026-06-08 14:55:35,708: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2026-06-08 14:55:35,716: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-08 14:55:35,717: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-08 14:55:35,718: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-06-08 14:55:35,718: INFO: common: created directory at: artifacts]
+[2026-06-08 14:55:35,718: INFO: common: created directory at: artifacts/data_transformation]
+[2026-06-08 14:55:35,745: INFO: data_transformation: Splited data into training and test sets]
+[2026-06-08 14:55:35,745: INFO: data_transformation: (1199, 12)]
+[2026-06-08 14:55:35,745: INFO: data_transformation: (400, 12)]
+[2026-06-08 14:55:35,746: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2026-06-08 14:55:35,747: INFO: main: >>>>> stage Model Trainer Stage started <<<<<]
+[2026-06-08 14:55:35,747: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-08 14:55:35,747: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-08 14:55:35,747: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-06-08 14:55:35,753: INFO: common: created directory at: artifacts]
+[2026-06-08 14:55:35,755: INFO: common: created directory at: artifacts/model_trainer]
+[2026-06-08 14:55:35,847: INFO: main: >>>>> stage Model Trainer Stage completed <<<<<
+
+x============================x]
+[2026-06-08 14:55:35,847: INFO: main: >>>>> stage Model Evaluation Stage started <<<<<]
+[2026-06-08 14:55:35,857: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-08 14:55:35,857: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-08 14:55:35,857: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-06-08 14:55:35,862: INFO: common: created directory at: artifacts]
+[2026-06-08 14:55:35,863: INFO: common: created directory at: artifacts/model_evaluation]
+[2026-06-08 14:55:35,889: INFO: common: json file saved at: artifacts\model_evaluation\metrics.yaml]
+[2026-06-08 14:55:35,889: INFO: main: >>>>> stage Model Evaluation Stage completed <<<<<
+
+x============================x]
+[2026-06-08 15:12:46,942: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2026-06-08 15:12:46,944: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-08 15:12:46,944: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-08 15:12:46,944: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-06-08 15:12:46,944: INFO: common: created directory at: artifacts]
+[2026-06-08 15:12:46,944: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-06-08 15:12:46,944: INFO: data_ingestion: File already exists of size: ~ 26 KB]
+[2026-06-08 15:12:46,954: INFO: main: >>>>> stage Data Ingestion Stage completed <<<<<
+
+x============================x]
+[2026-06-08 15:12:46,954: INFO: main: >>>>> stage Data Validation Stage started <<<<<]
+[2026-06-08 15:12:46,954: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-08 15:12:46,954: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-08 15:12:46,954: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-06-08 15:12:46,954: INFO: common: created directory at: artifacts]
+[2026-06-08 15:12:46,954: INFO: common: created directory at: artifacts/data_validation]
+[2026-06-08 15:12:46,988: INFO: main: >>>>> stage Data Validation Stage completed <<<<<
+
+x============================x]
+[2026-06-08 15:12:46,990: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2026-06-08 15:12:46,995: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-08 15:12:46,997: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-08 15:12:46,997: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-06-08 15:12:46,999: INFO: common: created directory at: artifacts]
+[2026-06-08 15:12:46,999: INFO: common: created directory at: artifacts/data_transformation]
+[2026-06-08 15:12:47,022: INFO: data_transformation: Splited data into training and test sets]
+[2026-06-08 15:12:47,022: INFO: data_transformation: (1199, 12)]
+[2026-06-08 15:12:47,022: INFO: data_transformation: (400, 12)]
+[2026-06-08 15:12:47,022: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2026-06-08 15:12:47,022: INFO: main: >>>>> stage Model Trainer Stage started <<<<<]
+[2026-06-08 15:12:47,031: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-08 15:12:47,034: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-08 15:12:47,036: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-06-08 15:12:47,036: INFO: common: created directory at: artifacts]
+[2026-06-08 15:12:47,036: INFO: common: created directory at: artifacts/model_trainer]
+[2026-06-08 15:12:47,111: INFO: main: >>>>> stage Model Trainer Stage completed <<<<<
+
+x============================x]
+[2026-06-08 15:12:47,111: INFO: main: >>>>> stage Model Evaluation Stage started <<<<<]
+[2026-06-08 15:12:47,113: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-06-08 15:12:47,113: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-06-08 15:12:47,113: INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-06-08 15:12:47,113: INFO: common: created directory at: artifacts]
+[2026-06-08 15:12:47,113: INFO: common: created directory at: artifacts/model_evaluation]
+[2026-06-08 15:12:47,142: INFO: common: json file saved at: artifacts\model_evaluation\metrics.yaml]
+[2026-06-08 15:12:47,142: INFO: main: >>>>> stage Model Evaluation Stage completed <<<<<
+
+x============================x]
